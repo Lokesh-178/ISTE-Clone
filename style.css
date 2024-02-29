@@ -1,0 +1,356 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.title-icon {
+    background-image: url('sprite.png');
+    background-position: 0 0;
+    width: 16px;
+    height: 16px;
+  }
+  #title {
+    position: relative;
+  }
+  #title:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    background-position: -16px 0;
+  }
+  nav{
+    background-color: #8fb3e15c;
+    position:sticky;
+  }
+
+.webiste {
+    /* height: 950px;
+    width: 1400px; */
+    background-image: url('backg.jpg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 542px;8*/
+    aspect-ratio: auto 542 / 307;
+    /* height: 307px; */
+}
+
+#first {
+    margin-left: 400px;
+}
+
+a {
+    float: left;
+    text-indent: 25px;
+    text-align: right;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: x-large;
+}
+a:hover{
+    color: brown;
+}
+
+#mainheading {
+    /* height:200px; */
+    white-space: nowrap;
+    display: inline-block;
+    margin-left: 500px;
+    
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(0, 174, 255);
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    width: 100px
+}
+
+#maincontent {
+    white-space: nowrap;
+    margin-left: 300px;
+    border: 2x solid black;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* font-size: xx-large; */
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+#second_heading {
+    white-space: nowrap;
+    display: inline-block;
+    margin-left: 430px;
+    ;
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(0, 174, 255);
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    width: 100px
+}
+
+/* .images {
+    height: 15em;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 20em;
+    background-size: cover;;
+} */
+.flex_container
+{
+  display:flex;
+  flex-wrap: wrap;
+}
+.flex_item
+{
+  width:200px;
+  height:200px;
+  border:2px solid black;
+  line-height:1.4;
+  justify-content: space-between;
+  position:relative;
+  left:50px;
+}
+#flex_item1
+{
+  margin-left: 150px;  
+  background-image: url('new1.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+#flex_item2
+{
+  /* position:relative; */
+  margin-left: 50px;
+  background-image: url('new2.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+#flex_item3
+{
+  margin-left: 50px;
+  background-image: url('gallery4-min.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+#flex_item4
+{
+  margin-left:50px;
+  background-image: url('gallery3-min.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+#third_heading
+{
+    white-space: nowrap;
+    display: inline-block;
+    margin-left: 400px;
+    ;
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(0, 174, 255);
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    width: 100px
+
+}
+footer{
+    background-color: #001f48;
+    padding: 70px 0;
+    margin-bottom: 0;
+
+ } 
+.parent {
+    height:200px;
+    width:1000px;
+    border: 1px solid white;
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+  }
+  .child {
+    height:200px;
+    width:180px;
+    border:50%;
+    display: inline-block;
+    border: 2px solid;
+    border-color:rgb(0, 179, 255);
+    border-radius:50%;
+    padding: 1rem 1rem;
+    margin-left: 180px;
+    vertical-align: middle;
+  }
+  #child1
+  {
+    background-image: url('fa2.jpg');
+    background-size: cover;
+  }
+  #child2
+  {
+    background-image: url('rowdra.jpg');
+    background-size: cover;
+  }
+  /* #anita
+  {
+    color:black;
+    margin-left: 80px;
+    text-decoration: solid;
+    text-transform: uppercase;
+    text-shadow: 0cap;
+    font-size: x-large;
+    font-weight: bolder;
+  }
+  #Rowdra
+  {
+color:black;
+    margin-left: 280px;
+    text-decoration: solid;
+    text-transform: uppercase;
+    text-shadow: 0cap;
+    font-size: x-large;
+    font-weight: bolder;
+
+  } */
+  #anita
+  {
+    margin-top:50px;
+    margin-left:120px;
+    text-decoration: solid;
+    font-size: x-large;
+    color:rgb(0, 217, 255);
+  }
+  #rowdra
+  {
+    /* margin-top:160px; */
+    margin-left:120px;
+    text-decoration: solid;
+    font-size: x-large;
+    color:black;
+  }
+  #fourth_heading
+  {
+    white-space: nowrap;
+    display: inline-block;
+    margin-left: 440px;
+    ;
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(0, 174, 255);
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    width: 100px
+
+  }
+  .sponsors
+  {
+    
+    margin-left:50px;
+  }
+  .spon
+  {
+    margin-left:20px;
+    text-indent: 40px;;
+  }
+/* .bigphoto
+{
+    height:200px;
+    width:1000px;
+    border: 1px solid white;
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+
+}
+.bigphoto{
+    height:120px;
+    width:90px;
+    border:50%;
+    display: inline-block;
+    border: 2px;
+    border-color:rgb(0, 179, 255);
+    padding: 1rem 1rem;
+    margin-left: 180px;
+    vertical-align: middle;
+} */
+.parent1 {
+  display:flex;
+  flex-wrap: wrap;
+  }
+  .child1 {
+    width:200px;
+  height:200px;
+  border:2px solid #001f48;
+  line-height:1.4;
+  justify-content: space-between;
+  position:relative;
+  left:50px;
+  color:white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  
+  }
+  #child3
+  {
+    margin-left:90px;
+    text-align: center;
+    text-decoration: none;
+  }
+  #child4
+  {
+    margin-left:40px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  #child5
+  {
+    margin-left:60px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  #child6
+  {
+    margin-left:40px;
+    text-align: center;
+    text-decoration: none;
+  }
+  /* .middle:after{
+    content: "";
+    position : absolute;
+    left:25%;
+    bottom:0;
+    border: 3px solid black;
+    width:50%;
+  } */
+  @keyframes slide{
+    from{
+    transorm: translateX(0);
+    }
+    to{
+      transform: translateX(-80%);
+    }
+    
+  }
+  .sponsors
+  {
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .sponsors-slide
+  {
+display:inline-block;
+    animation: 18s slide infinite linear;
+  }
+  .sponsors:hover .sponsors-slide{
+    animation-play-state: paused;;
+  }
+ 
